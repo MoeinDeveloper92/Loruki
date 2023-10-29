@@ -53,7 +53,6 @@
   gap: 30px;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 
 .grid-3 {
@@ -128,18 +127,56 @@
 }
 /* End of paddings */
 
-.bg-primary {
-  background: var(--primary-color);
+/* Text sized */
+.lead {
+  font-size: 20px;
 }
-.text-xl {
-  font-size: 4rem;
-}
-.text-lg {
-  font-size: 3rem;
-}
-.text-md {
-  font-size: 3rem;
-}
-.text-sm {
+.sm {
   font-size: 1rem;
 }
+.md {
+  font-size: 2rem;
+}
+.lg {
+  font-size: 3rem;
+}
+.xl {
+  font-size: 4rem;
+}
+/* Text sized */
+
+/* Backgrounds colors and Color Button */
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a,
+.bg-light a,
+.btn-light a {
+  color: #fff;
+}
+
+/* Backgrounds colors End */
